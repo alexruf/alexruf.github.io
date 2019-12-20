@@ -4,6 +4,16 @@ title = "alexander_ruf"
 theme = "hello-friend"
 paginate = 5
 
+[privacy]
+  [googleAnalytics]
+    disable = true
+    anonymizeIP = true
+    respectDoNotTrack = true
+  [twitter]
+    enableDNT = true
+  [youtube]
+    privacyEnhanced = true
+
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
@@ -47,3 +57,11 @@ paginate = 5
         identifier = "archive"
         name = "Archive"
         url = "/archive"
+      [[languages.en.menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories"
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags"

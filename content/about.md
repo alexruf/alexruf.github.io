@@ -4,7 +4,7 @@ date: "2019-12-19"
 author: "Alexander"
 ---
 
-My name is Alexander Ruf and I'm a developer interested in coding, open source, software engineering and tons of other stuff.
+My name is Alexander Ruf and I'm a software developer interested in coding, open source, software engineering and tons of other stuff.
 
 I'm located in Germany.
 
