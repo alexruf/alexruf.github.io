@@ -7,7 +7,6 @@ tags:
     - networking
 categories:
     - "Tutorials"
-draft: true
 ---
 
 WireGuard has become a popular VPN protocol due to its simplicity and security. I created this guide because as a non-Linux administrator and non-network professional, I found it quite difficult to find correct and complete instructions on how to set up my own VPN with WireGuard. The official documentation didn't help me much in this either.
