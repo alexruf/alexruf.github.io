@@ -181,6 +181,6 @@ After restarting the WireGuard interface once again for the last time, your VPN 
 
 # Conclusion
 
-As you can see, setting up and running your own VPN with WireGuard is relatively easy one you know how to do it. So there's no need to pay any money to questionable VPN providers.
+As you can see, setting up and running your own VPN with WireGuard is relatively easy once you know how to do it. So there's no need to pay money to questionable VPN providers. Instead, you can run your own VPN server on a cheap virtual private server for little money (plus you can do a lot of other things with your own VPN).
 
 If you think something in this guide is wrong or can be improved, please let me know!
