@@ -1,5 +1,5 @@
 baseURL = "https://www.alexruf.net/"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "alexander_ruf"
 theme = "hello-friend"
 paginate = 5
