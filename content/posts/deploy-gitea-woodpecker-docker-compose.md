@@ -1,16 +1,8 @@
----
-title: "Deploy Gitea and Woodpecker CI with Docker Compose"
-date: 2022-11-13T15:05:00+02:00
-author: Alexander
-tags:
-    - linux
-    - docker
-    - selfhosting
-    - git
-    - ci
-categories:
-    - "Tutorials"
----
++++
+date = '2022-11-13T15:05:00+02:00'
+title = 'Deploy Gitea and Woodpecker CI with Docker Compose'
+tags = ["linux", "self-hosting", "git"]
++++
 
 Just a short post to let you know that I published my instructions on [Codeberg](https://codeberg.org) on how to quickly set up your own self-hosted Gitea server with Woodpecker CI and Traefik as a reverse proxy on your own local home server.
 

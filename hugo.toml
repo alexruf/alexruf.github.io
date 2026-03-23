@@ -1,0 +1,75 @@
+baseURL = "https://www.alexruf.net/"
+title = "alexander_ruf"
+description = "building things. writing about it."
+theme = "LoveIt"
+
+languageCode = "en"
+languageName = "English"
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+  [[menu.main]]
+    weight = 3
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+
+[params]
+  defaultTheme = "auto"
+  #dateFormat = "2006-01-02"
+  title = "alexander_ruf"
+  description = ""
+
+  # Author config
+  [params.author]
+    name = "Alexander Ruf"
+
+  # Footer config
+  [params.footer]
+    enable = true
+    hugo = false
+    copyright = true
+    author = true
+    since = 2019
+
+  # Section (all posts) page config
+  [params.section]
+    #dateFormat = "2006-01-02"
+
+  # List (category or tag) page config
+  [params.list]
+    #dateFormat = "2006-01-02"
+
+  # Home page config
+  [params.home]
+    # Home page profile
+    [params.home.profile]
+      title = ""
+      subtitle = "building things. writing about it."
+
+  [params.header.title]
+    name = "alexander_ruf"
+
+  [params.social]
+    GitHub = "alexruf"
+    Codeberg = "alexruf"
+    RSS = true
+
+  # Page global config
+  [params.page]
+    # Social share links in post page
+    [params.page.share]
+      enable = false
+
+[markup]
+  [markup.highlight]
+    noClasses = false

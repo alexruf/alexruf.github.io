@@ -1,13 +1,8 @@
----
-title: "How to Setup WireGuard VPN"
-date: 2020-07-07T22:17:45+02:00
-author: Alexander
-tags:
-    - linux
-    - networking
-categories:
-    - "Tutorials"
----
++++
+date = '2020-07-07T22:17:45+02:00'
+title = 'How to Setup WireGuard VPN'
+tags = ["linux", "networking", "vpn"]
++++
 
 WireGuard has become a popular VPN protocol due to its simplicity and security. I created this guide because as a non-Linux administrator and non-network professional, I found it quite difficult to find correct and complete instructions on how to set up my own VPN with WireGuard. The official documentation didn't help me much in this either.
 
