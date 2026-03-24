@@ -1,7 +1,8 @@
----
-title: "About"
-date: "2019-12-19"
----
++++
+title = 'About'
+date = '2019-12-19'
+layout = 'simple'
++++
 
 My name is Alexander Ruf and I'm a software developer interested in coding, open source, software engineering and tons of other stuff.
 

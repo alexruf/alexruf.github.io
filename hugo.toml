@@ -8,17 +8,17 @@ languageName = "English"
 
 [menu]
   [[menu.main]]
-    weight = 1
+    weight = 10
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
   [[menu.main]]
-    weight = 2
+    weight = 20
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
   [[menu.main]]
-    weight = 3
+    weight = 30
     identifier = "about"
     name = "About"
     url = "/about/"
