@@ -2,6 +2,7 @@
 # https://gohugo.io/configuration/all/
 baseURL = "https://www.alexruf.net/"
 title = "alexander_ruf"
+copyright = "2019 – 2026 Alexander Ruf"
 theme = "PaperMod"
 languageCode = "en"
 locale = "en-us"
