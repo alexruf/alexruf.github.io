@@ -1,13 +1,8 @@
----
-title: "How to Setup WireGuard VPN"
-date: 2020-07-07T22:17:45+02:00
-author: Alexander
-tags:
-    - linux
-    - networking
-categories:
-    - "Tutorials"
----
++++
+date = '2020-07-07T22:17:45+02:00'
+title = 'How to Setup WireGuard VPN'
+tags = ["linux", "networking", "vpn"]
++++
 
 WireGuard has become a popular VPN protocol due to its simplicity and security. I created this guide because as a non-Linux administrator and non-network professional, I found it quite difficult to find correct and complete instructions on how to set up my own VPN with WireGuard. The official documentation didn't help me much in this either.
 
@@ -118,7 +113,7 @@ The official WireGuard page contains [installation](https://www.wireguard.com/in
 
 Once the client is installed, click `Add Empty Tunnel`.
 
-![WireGuard macOS client new config](/content/images/wireguard-macos-new-config.png)
+![WireGuard macOS client new config](images/wireguard-macos-new-config.png)
 
 A private and a public key are automatically generated and the client configuration is prefilled. Edit the configuration using the following tempalte.
 
@@ -138,7 +133,7 @@ Endpoint = <server-address_or_ip>:51820
 PersistentKeepalive = 25
 ```
 
-![WireGuard macOS client configuration](/content/images/wireguard-macos-client-config.png)
+![WireGuard macOS client configuration](images/wireguard-macos-client-config.png)
 
 ## Add new client peer to server
 
@@ -159,11 +154,11 @@ Last but not least we will set up the WireGuard client on iOS. The iOS client ca
 
 Start by adding a new configuration from scratch.
 
-![WireGuard iOS client new config](/content/images/wireguard-ios-new-config.png)
+![WireGuard iOS client new config](images/wireguard-ios-new-config.png)
 
 Instead of having to edit the configuration manually, iOS offers a graphical interface for this purpose.
 
-![WireGuard iOS client configuration](/content/images/wireguard-ios-client-config.png)
+![WireGuard iOS client configuration](images/wireguard-ios-client-config.png)
 
 ## Add another client peer to server
 

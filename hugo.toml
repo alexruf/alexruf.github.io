@@ -1,0 +1,71 @@
+# Hugo Configuration
+# https://gohugo.io/configuration/all/
+baseURL = "https://www.alexruf.net/"
+title = "alexander_ruf"
+theme = "PaperMod"
+languageCode = "en"
+locale = "en-us"
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.x]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[menu]
+  [[menu.main]]
+    weight = 10
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+  [[menu.main]]
+    weight = 20
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+  [[menu.main]]
+    weight = 30
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+
+# PaperMod Theme Parameters
+# https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  description = "Software developer writing about code, open source, and the things I build for fun."
+
+  [params.label]
+    text = "alexander_ruf"
+
+  [params.homeInfoParams]
+    Title = "hey, I'm Alex 👋"
+    Content = "software developer. I write code for fun — and occasionally write about it too."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/alexruf"
+
+[[params.socialIcons]]
+  name = "codeberg"
+  url = "https://codeberg.org/alexruf"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:alexander@alexruf.net"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
